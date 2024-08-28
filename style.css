@@ -1,0 +1,12 @@
+.card{
+    aspect-ratio: 3 / 2;
+    background-color: coral;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.card-holder{
+    display: grid;
+    grid-template-columns: 25vw, 25vw;
+    grid-template-rows: auto, auto, auto;
+}
