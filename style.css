@@ -10,3 +10,21 @@
     grid-template-columns: 25vw, 25vw;
     grid-template-rows: auto, auto, auto;
 }
+
+nav{
+    background-color: #ffb5f9;
+    color: #3b2239;
+}
+nav a.home{
+    color: #a0576e;
+}
+
+
+body{
+    background-color: #3b2239;
+    color: #fff;
+}
+
+h1{
+    color: #fd7ff2;
+}
