@@ -16,10 +16,22 @@ nav{
     color: #3b2239;
     position: absolute;
     top: 0px;
-    left: 0px
+    left: 0px;
+    width: 100vw;
+    height: 5%;
+    align-content: space-around;
+    padding-left: 2%;
 }
+
 nav a.home{
     color: #a0576e;
+    font-weight: 600;
+}
+
+nav a{
+    text-decoration: none;
+    color: #3b2239;
+    cursor: pointer;
 }
 
 
