@@ -14,12 +14,12 @@
 nav{
     background-color: #ffb5f9;
     color: #3b2239;
-}
-nav a.home{
-    color: #a0576e;
     position: absolute;
     top: 0px;
     left: 0px
+}
+nav a.home{
+    color: #a0576e;
 }
 
 
