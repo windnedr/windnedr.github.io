@@ -27,6 +27,7 @@ nav{
     height: 5%;
     align-content: space-around;
     padding-left: 2%;
+    backdrop-filter: blur(6px);
 }
 
 nav a.home{
