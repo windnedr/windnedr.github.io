@@ -18,9 +18,9 @@
 }
 
 nav{
-    background-color: #ffb5f9;
+    background-color: #ffa0f79e;
     color: #3b2239;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     width: 100vw;
@@ -44,6 +44,8 @@ nav a{
 body{
     background-color: #3b2239;
     color: #fff;
+
+    padding-top: 5%;
 }
 
 h1{
