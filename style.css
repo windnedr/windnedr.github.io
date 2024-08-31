@@ -58,3 +58,8 @@ body{
 h1{
     color: #fd7ff2;
 }
+
+/* ********** PROJECTS ************* */
+.D-test{
+    background-image: url("projects/thumbnails/3D test.png")
+}
