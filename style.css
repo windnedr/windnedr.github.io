@@ -2,6 +2,7 @@
 
 *{
     font-family: "JetBrains Mono", monospace;
+    margin: 8px
 }
 
 .card {
@@ -40,7 +41,7 @@ nav{
     top: 0px;
     left: 0px;
     width: 100vw;
-    height: 5%;
+    height: 50px;
     align-content: space-around;
     padding-left: 2%;
     backdrop-filter: blur(6px);
@@ -62,7 +63,8 @@ body{
     background-color: #3b2239;
     color: #fff;
 
-    padding-top: 5%;
+    padding-top: 50px;
+    margin: 0px;
 }
 
 h1{
@@ -70,20 +72,20 @@ h1{
 }
 
 button{
-    padding-left: 10px;
-    padding-right: 10px;
-
-    background-color: #fd7ff2;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FD7FFD;
     color: #3b2239;
     border: none;
     border-radius: 10000px;
-
     transition: 0.4s;
+    font-size: 20;
 }
 
-button{
-    transform: scale(1.02);
+button:hover {
+    transform: scale(1.1);
     transition: 0.4s;
+    background-color: #fff;
 }
 
 /* ********** PROJECTS ************* */
@@ -100,4 +102,5 @@ button{
 .banner{
     aspect-ratio: 4 / 1 !important;
     background-position: center !important;
+    margin: 0px;
 }
