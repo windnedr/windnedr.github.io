@@ -100,6 +100,14 @@ button:hover {
     background-color: #fff;
 }
 
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #243523;
+    border-style: dashed;
+    border-color: #9d5495;
+}
+
 /* ********** PROJECTS ************* */
 .D-test{
     background-image: url("projects/thumbnails/3D test.png");
