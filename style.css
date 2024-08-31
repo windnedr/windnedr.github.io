@@ -61,5 +61,16 @@ h1{
 
 /* ********** PROJECTS ************* */
 .D-test{
-    background-image: url("projects/thumbnails/3D test.png")
+    background-image: url("projects/thumbnails/3D test.png");
+    background-size: cover;
+}
+
+.pomr{
+    background-image: url("projects/thumbnails/POMR wind banner.png");
+    background-size: cover;
+}
+
+.banner{
+    aspect-ratio: 4 / 1 !important;
+    background-position: center !important;
 }
