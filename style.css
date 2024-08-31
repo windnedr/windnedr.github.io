@@ -53,6 +53,11 @@ nav{
     margin: 0px;
 }
 
+.navframe{
+    height: 50px;
+    border: none;
+}
+
 nav a.home{
     color: #a0576e;
     font-weight: 600;
