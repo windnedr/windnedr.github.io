@@ -16,6 +16,7 @@ html{
     width: auto;
     grid-column: auto;
     grid-row: auto;
+    cursor: pointer;
 
     transition: 0.4s;
 }
