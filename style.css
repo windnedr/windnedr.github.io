@@ -5,6 +5,10 @@
     margin: 8px
 }
 
+html{
+    margin: 0px;
+}
+
 .card {
     aspect-ratio: 3 / 2;
     background-color: coral;
@@ -45,6 +49,7 @@ nav{
     align-content: space-around;
     padding-left: 2%;
     backdrop-filter: blur(6px);
+    margin: 0px;
 }
 
 nav a.home{
