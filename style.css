@@ -4,17 +4,23 @@
     font-family: "JetBrains Mono", monospace;
 }
 
-.card{
+.card {
     aspect-ratio: 3 / 2;
     background-color: coral;
     border-radius: 10px;
-    width: 500px;
+    width: auto;
+    grid-column: auto;
+    grid-row: auto;
 }
 
-.card-holder{
+.card-holder {
+    overflow: scroll;
     display: grid;
-    grid-template-columns: 25vw, 25vw;
-    grid-template-rows: auto, auto, auto;
+    gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
 }
 
 nav{
