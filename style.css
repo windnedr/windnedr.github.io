@@ -56,6 +56,7 @@ nav{
 .navframe{
     height: 50px;
     border: none;
+    margin: 0px;
 }
 
 nav a.home{
