@@ -132,7 +132,7 @@ hr {
     margin: 0px;
 }
 
-.banner .D-test{
+.banner.D-test{
     background-image: url("projects/banners/3dtest.png");
 }
 
