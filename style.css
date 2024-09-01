@@ -51,6 +51,8 @@ nav{
     padding-left: 2%;
     backdrop-filter: blur(6px);
     margin: 0px;
+
+    z-index: 2;
 }
 
 .navframe{
