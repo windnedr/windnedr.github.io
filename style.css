@@ -136,6 +136,11 @@ hr {
     background-size: cover;
 }
 
+.genfight{
+    background-image: url("projects/thumbnails/genfight.png");
+    background-size: cover;
+}
+
 .banner{
     aspect-ratio: 4 / 1 !important;
     background-position: center !important;
@@ -152,6 +157,10 @@ hr {
 
 .banner.gemroyale{
     background-image: url("projects/banners/grban.png");
+}
+
+.banner.genfight{
+    background-image: url("projects/banners/genfightban.png");
 }
 
 /* ********** ANIMATIONS ************* */
