@@ -141,6 +141,11 @@ hr {
     background-size: cover;
 }
 
+.scr3d{
+    background-image: url("projects/thumbnails/scr3DS.png");
+    background-size: cover;
+}
+
 .banner{
     aspect-ratio: 4 / 1 !important;
     background-position: center !important;
@@ -161,6 +166,10 @@ hr {
 
 .banner.genfight{
     background-image: url("projects/banners/genfightban.png");
+}
+
+.banner.scr3d{
+    background-image: url("projects/banners/scr3DS.png");
 }
 
 /* ********** ANIMATIONS ************* */
