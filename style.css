@@ -79,13 +79,14 @@ nav a{
 
 
 body{
+    background-color: #3b2239;
     color: #fff;
 
     padding-top: 50px;
     margin: 0px;
 
     background-image: url("Group 4.png");
-    background-size: 10px;
+    background-size: 40px;
     
     background-attachment: fixed;
     background-blend-mode: overlay;
@@ -197,7 +198,7 @@ hr {
         background-position-y: 0px;
     }
     100%{
-        background-position-x: 10px;
-        background-position-y: 10px;
+        background-position-x: 40px;
+        background-position-y: 40px;
     }
 }
