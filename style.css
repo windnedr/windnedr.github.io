@@ -7,6 +7,10 @@
 
 html{
     margin: 0px;
+    background-color: #3b2239;
+
+    animation-name: load;
+    animation-duration: 0.3s;
 }
 
 .card {
@@ -75,17 +79,18 @@ nav a{
 
 
 body{
-    background-color: #3b2239;
     color: #fff;
 
     padding-top: 50px;
     margin: 0px;
 
-    animation-name: load;
-    animation-duration: 0.3s;
-
     background-image: url("Group 4.png");
-    background-size: 50px;
+    background-size: 10px;
+    
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+
+    animation: scroll 3s linear infinite;
 }
 
 h1{
@@ -188,11 +193,11 @@ hr {
 
 @keyframes scroll{
     0%{
-        transform: scale(0.97);
-        filter: blur(5px);
+        background-position-x: 0px;
+        background-position-y: 0px;
     }
     100%{
-        transform: scale(1);
-        filter: blur(0px);
+        background-position-x: 10px;
+        background-position-y: 10px;
     }
 }
