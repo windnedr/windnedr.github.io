@@ -107,6 +107,7 @@ button{
     border-radius: 10000px;
     transition: 0.4s;
     font-size: 20;
+    background: linear-gradient(180deg, #D160E4 0%, #D781E6 50%, #D160E4 50%, #B53ECA 99.5%);
 }
 
 button:hover {
